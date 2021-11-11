@@ -1,14 +1,16 @@
+import React from 'react';
 import Navbar from './components/navbar/Navbar'
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
 import './App.css';
 
 function App() {
+  const [clickMe, setClickMe] = React.useState(false);
   return (
     <div className="App">
-     <Navbar />
-     <Header />
-     <Footer />
+     <Navbar  />
+     <Header clickMe={clickMe} setClickMe={setClickMe} />
+     <Footer clickMe={clickMe} setClickMe={setClickMe} />
     </div>
   );
 }
