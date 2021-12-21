@@ -12,12 +12,11 @@ import GitLogo from '../images/git-logo.png'
 const Skill = () => {
   return (
     <div className='skill_container' >
-      
+      <h1>Skills</h1>
 
       <div className='logo_container' >
 
         <div className='logo' >
-
           <img src={HtmlLogo} alt="Html5 Logo" />
           <h2>HTML5</h2>
         </div>
@@ -37,9 +36,11 @@ const Skill = () => {
           <h2>React.Js</h2>
         </div>
 
+        <div className='logo_container' >
+
         <div className='logo' >
           <img src={StyledComponentsLogo} alt="Styled-Components Logo" />
-          <h2>Styled-Components</h2>
+          <h2>Styled</h2>
         </div>
 
          <div className='logo' >
@@ -57,6 +58,7 @@ const Skill = () => {
           <h2>Git</h2>
         </div>
 
+        </div>
       </div>
     </div>
   )

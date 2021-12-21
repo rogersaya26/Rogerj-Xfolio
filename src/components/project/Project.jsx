@@ -7,6 +7,7 @@ const Project = () => {
     <div className='project_container' >
       <h1>Projets</h1>
       <Card />
+      
 
     </div>
   )

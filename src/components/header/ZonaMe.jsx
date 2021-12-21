@@ -5,7 +5,7 @@ import { AiFillCloseCircle } from "react-icons/ai";
 
 const StyledZonaMe = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   position: absolute;
   position: fixed;
@@ -22,10 +22,9 @@ const StyledZonaMe = styled.div`
 `;
 const StyledContainerMe = styled.div`
   width: 40%;
-  height: 70vh;
+  height: 50vh;
   border: 0.2rem solid #e44878;
-  border-right: none;
-  border-radius: 1rem;
+  border-radius: 2rem;
   background-color: #11181f;
   opacity: 1;
   @media (max-width: 968px) {
