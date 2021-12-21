@@ -7,6 +7,7 @@ import ReactLogo from '../images/react-logo.png'
 import StyledComponentsLogo from '../images/styled-components-logo.png'
 import SqlLogo from '../images/sql-logo.png'
 import BootstrapLogo from '../images/bootstrap-logo.png'
+import GitLogo from '../images/git-logo.png'
 
 const Skill = () => {
   return (
@@ -49,6 +50,11 @@ const Skill = () => {
         <div className='logo' >
           <img src={SqlLogo} alt="Styled-Components Logo" />
           <h2>Sql</h2>
+        </div>
+
+         <div className='logo' >
+          <img src={GitLogo} alt="Git Logo" />
+          <h2>Git</h2>
         </div>
 
       </div>
