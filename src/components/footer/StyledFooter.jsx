@@ -18,7 +18,7 @@ export const StyledContenido = styled.div`
   margin-left: 4vw;
   margin-bottom: 6vh;
   p > span {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 `;
 

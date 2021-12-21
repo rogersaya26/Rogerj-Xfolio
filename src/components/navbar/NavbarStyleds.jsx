@@ -50,7 +50,7 @@ export const Menu = styled.ul`
   @media (max-width: 968px) {
     left: ${({ open }) => (open ? 0 : "-100%")};
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     flex-direction: column;
     position: absolute;
     align-items: center;

@@ -8,6 +8,7 @@ import StyledComponentsLogo from '../images/styled-components-logo.png'
 import SqlLogo from '../images/sql-logo.png'
 import BootstrapLogo from '../images/bootstrap-logo.png'
 import GitLogo from '../images/git-logo.png'
+import JavaLogo from '../images/java-logo.png'
 
 const Skill = () => {
   return (
@@ -36,11 +37,16 @@ const Skill = () => {
           <h2>React.Js</h2>
         </div>
 
-        <div className='logo_container' >
-
         <div className='logo' >
           <img src={StyledComponentsLogo} alt="Styled-Components Logo" />
           <h2>Styled</h2>
+        </div>
+
+        <div className='logo_container' >
+
+        <div className='logo' >
+          <img src={JavaLogo} alt="Java Logo" />
+          <h2>Java</h2>
         </div>
 
          <div className='logo' >
