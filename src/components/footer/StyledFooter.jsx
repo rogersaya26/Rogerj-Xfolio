@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyledFooter = styled.footer`
   width: 100%;
   height: 25vh;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   display: flex;
   background-color: #11181f;

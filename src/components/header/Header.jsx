@@ -1,12 +1,12 @@
 import React from "react";
 import NightLife from "../images/nightlife.gif";
 import styled from "styled-components";
-import Letrero from "./Letrero";
+import Letrero from "./letrero/Letrero";
 import ZonaMe from "./ZonaMe";
 
 const BgHeader = styled.header`
   width: 100%;
-  height: 100vh;
+  height: 85vh;
   display: flex;
   overflow: hidden;
   justify-content: center;

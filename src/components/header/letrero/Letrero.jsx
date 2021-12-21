@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonMi from "../styledcomponents/ButtonMi";
+import ButtonMi from "../../styledcomponents/ButtonMi";
 import "./Letrero.css";
 
 const Letrero = ( {clickMe, setClickMe} ) => {
@@ -13,7 +13,7 @@ const Letrero = ( {clickMe, setClickMe} ) => {
           </h1>
           <div className="button_letrero">
             <ButtonMi onClick={()=> setClickMe(!clickMe)} >
-              MAS SOBRE MI
+              About Me
             </ButtonMi>
           </div>
         </div>

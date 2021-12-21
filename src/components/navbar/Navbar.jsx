@@ -11,9 +11,9 @@ const Navbar = () => {
       </ContainerBtn>
       <Menu open={open}>
         <MenuIten>Home</MenuIten>
-        <MenuIten>Habilidades</MenuIten>
-        <MenuIten>Proyecto</MenuIten>
-        <MenuIten>Contacto</MenuIten>
+        <MenuIten>Skills</MenuIten>
+        <MenuIten>Projets</MenuIten>
+        <MenuIten>Contact</MenuIten>
       </Menu>
     </StyledNavbar>
   );

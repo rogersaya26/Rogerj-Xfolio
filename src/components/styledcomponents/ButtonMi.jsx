@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 const ButtonMi = styled.button`
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
   border: 0.2rem solid #e44878;
   background-color: #11181f;
   border-radius: 0.8rem;

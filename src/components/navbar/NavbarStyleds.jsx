@@ -9,7 +9,8 @@ export const StyledNavbar = styled.nav`
   align-items: center;
   z-index: 30;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  font-family: 'Poppins', sans-serif;
 
   @media (max-width: 968px) {
     margin: 0;
@@ -41,7 +42,7 @@ export const Menu = styled.ul`
   width: 50vw;
   justify-content: space-around;
   list-style: none;
-  border: 0.2rem solid #e44878;
+  border: 0.2rem solid var(--orangeyellow);
   background-color: #11181f;
   border-radius: 1rem;
   padding: 0.8rem;

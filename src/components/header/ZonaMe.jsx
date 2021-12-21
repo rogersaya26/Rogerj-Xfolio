@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { AiFillCloseCircle } from "react-icons/ai";
-import MiaFoto from "../images/miaFoto.jpeg";
+/* import MiaFoto from "../images/miaFoto.jpeg"; */
 
 const StyledZonaMe = styled.div`
   width: 100%;
@@ -42,11 +42,11 @@ const StyledContainerTxtImg = styled.div`
   width: 95%;
   display: flex;
 `;
-const StyledContainerImg = styled.img`
+/* const StyledContainerImg = styled.img`
   width: 30%;
   display: flex;
   justify-content: center;
-`;
+`; */
 const StyledContainerTxt = styled.div`
   width: 70%;
   letter-spacing: 0.4rem;
@@ -111,7 +111,7 @@ const ZonaMe = ({ clickMe, setClickMe }) => {
             <br />
             <h3>....</h3>
           </StyledContainerTxt>
-          <StyledContainerImg src={MiaFoto} alt="miaFoto" />
+          {/* <StyledContainerImg src={MiaFoto} alt="miaFoto" /> */}
         </StyledContainerTxtImg>
 
         <StyledP>
