@@ -16,8 +16,6 @@ const Card = ({title,text,imagesource,url}) => {
         <p className='card-text' >{text ? text : "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, alias id quas qui sit cum odit dicta quibusdam officiis sint laboriosam modi, voluptatum, sed possimus? Adipisci nostrum recusandae sunt mollitia!" }</p>
         <a href={url} target="_blank" rel='noreferrer' className='btn btn-outline-secondary reunded-0' >Go to this Website</a>
       </div>
-
-    
     </div>
   )
 }
