@@ -8,7 +8,7 @@ const Letrero = ( {clickMe, setClickMe} ) => {
       <div className="letrero_container">
         <div className="letrero">
           <h1>
-            ROGER <br /> JIMENEZ <br /> PROGRAMADOR{" "}
+            ROGER <br /> JIMENEZ <br /> Programmer{" "}
             <span className="parpadea">|</span>
           </h1>
           <div className="button_letrero">
