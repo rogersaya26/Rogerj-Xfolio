@@ -8,7 +8,7 @@ const Card = ({title,text,imagesource,url}) => {
     <div className='card text-center animate__animated animate__bounce ' >
      
      <div className='overflow' >
-       <img src={imagesource} alt="" className='card-img-top' />
+       <img src={imagesource} alt="Images App" className='card-img-top  ' />
        </div>
       
       <div className='card-body' >
