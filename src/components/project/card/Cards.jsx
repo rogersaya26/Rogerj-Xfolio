@@ -5,9 +5,10 @@ import './Cards.css'
 
 import DogsApiImg from '../../images/app-thedog-api.png'
 import TheBreakingBadApiImg from '../../images/app-thebreakingbad-api.png'
+import AppTareas from '../../images/app-tareas.png'
 
-import Img1 from '../../images/image1.jpg'
-/* import Img2 from '../../images/image2.jpg'
+/* import Img1 from '../../images/image1.jpg'
+import Img2 from '../../images/image2.jpg'
 import Img3 from '../../images/image3.jpg' */
 
   const cards =[
@@ -20,10 +21,10 @@ import Img3 from '../../images/image3.jpg' */
     },
     {
       id: 2,
-      title: 'App',
-      text: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur dolorum neque consequuntur ipsum sequi, rerum optio reiciendis, quasi explicabo doloremque blanditiis earum! Eum ipsum commodi doloribus aliquid enim nobis ut.",
-      image: Img1,
-      url: "www.google.com"
+      title: 'App personal task manager',
+      text: "This Site in React.js and implement many Hooks",
+      image: AppTareas,
+      url: "https://pedantic-benz-3ef861.netlify.app"
     },
     {
       id: 3,
@@ -40,7 +41,7 @@ const Cards = () => {
       <div className="row">
         {
           cards.map((card) => (
-            <div className="col-md-4 "  key={card.id}>
+            <div className="col-md-4 mt-5 "  key={card.id}>
           <Card title={card.title} text = {card.text} imagesource = {card.image} url ={card.url} />
         </div>
           ))
