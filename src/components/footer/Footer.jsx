@@ -1,12 +1,15 @@
 import React from "react";
 import { StyledFooter, StyledContenido, StyledContacto } from "./StyledFooter";
 import { ButtonMiFoo } from "../styledcomponents/ButtonMiFoo";
-import {BsLinkedin} from 'react-icons/bs';
+/* import {BsLinkedin} from 'react-icons/bs'; */
 
 const Footer = ({clickMe, setClickMe}) => {
 
   return (
     <StyledFooter>
+
+
+
       <StyledContenido>
         <p>
           ROGER JIMENEZ <span>&copy;</span> 2021
@@ -17,10 +20,20 @@ const Footer = ({clickMe, setClickMe}) => {
         </p>
       </StyledContenido>
 
+
+
+
       <StyledContacto>
-        <p>DESCARGAR CV</p>
-        <i><BsLinkedin/></i>
+        
+        <a href="https://drive.google.com/file/d/1pNyRjRS7SL-1ESJhplL-88Vt6940U9hp/view?usp=sharing" target="_blank" rel="noreferrer" ><p> DESCARGAR CV</p></a>
+     
+        <a href="https://www.linkedin.com/in/roger-jimenez-3929149b/" target="_blank" rel="noreferrer" > <span className="logo_linkedin"><ion-icon name="logo-linkedin"></ion-icon></span></a>
+        <a href="https://github.com/rogersaya26?tab=repositories" target="_blank" rel="noreferrer" > <span className="logo_github" ><ion-icon name="logo-github"></ion-icon></span></a>
+
       </StyledContacto>
+
+
+
     </StyledFooter>
   );
 };
