@@ -1,0 +1,19 @@
+.icons_me {
+  color: #fff;
+  font-size: 3.5rem;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+.icon_linkedin1:hover {
+color: #0e76a8;
+}
+
+.icon_github1:hover {
+  color: #000;
+}
+
+.icon_mail1:hover {
+  color: var(--orangeyellow);
+}
+

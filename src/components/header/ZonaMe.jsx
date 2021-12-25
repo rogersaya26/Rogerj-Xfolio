@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { AiFillCloseCircle } from "react-icons/ai";
-/* import MiaFoto from "../images/miaFoto.jpeg"; */
+import './ZonaMe.css'
 
 const StyledZonaMe = styled.div`
   width: 100%;
@@ -20,73 +19,37 @@ const StyledZonaMe = styled.div`
     cursor: pointer;
   }
 `;
+
 const StyledContainerMe = styled.div`
   width: 40%;
-  height: 50vh;
+  height: 60vh;
   border: 0.2rem solid #e44878;
   border-radius: 2rem;
   background-color: #11181f;
   opacity: 1;
+  
+  h1 {
+    margin-left: 2rem;
+  }
+
+  h2 {
+    margin-left: 4rem;
+  }
+
+
   @media (max-width: 968px) {
     width: 100%;
     height: 100vh;
   }
+  a{
+    text-decoration: none;
+  }
 `;
+
 const StyledBotton = styled.div`
   font-size: 4rem;
   cursor: pointer;
-`;
-
-const StyledContainerTxtImg = styled.div`
-  width: 95%;
-  display: flex;
-`;
-/* const StyledContainerImg = styled.img`
-  width: 30%;
-  display: flex;
-  justify-content: center;
-`; */
-const StyledContainerTxt = styled.div`
-  width: 70%;
-  letter-spacing: 0.4rem;
-  margin-left: 2rem;
-  h1 {
-    font-size: 2.5rem;
-  }
-  h3 {
-    font-family: "Roboto Mono", monospace;
-    font-size: 2rem;
-    font-weight: 500;
-  }
-  @media(max-width: 968px) {
-    h1{
-      font-size: 1.4rem;
-    }
-    h3 {
-      font-size: 1.2rem;
-    }
-  }
-    @media(max-width: 1440px) {
-    h1{
-      font-size: 1.6rem;
-    }
-    h3 {
-      font-size: 1.3rem;
-    }
-  }
-`;
-const StyledP = styled.p`
-  width: 90%;
-  margin-left: 2rem;
-  font-family: "Roboto Mono", monospace;
-  font-size: 1.5rem;
-  font-weight: 500;
-  @media(max-width: 968px) {
-    font-size: 1.1rem;
-  }
-  @media(max-width: 1440px) {
-    font-size: 1rem;
-  }
+  margin-left: 1rem;
 `;
 
 const ZonaMe = ({ clickMe, setClickMe }) => {
@@ -94,32 +57,13 @@ const ZonaMe = ({ clickMe, setClickMe }) => {
     <StyledZonaMe clickMe={clickMe}>
       <StyledContainerMe>
         <StyledBotton>
-          <AiFillCloseCircle onClick={() => setClickMe(!clickMe)} />
+          <ion-icon name="close-circle" onClick={() => setClickMe(!clickMe)} ></ion-icon>
         </StyledBotton>
-
-        <StyledContainerTxtImg>
-          <StyledContainerTxt>
-            <h3> Nombre: </h3>
-            <br />
-            <h1> Roger Jimenez </h1>
-            <br />
-            <br />
-            <h3>Residenciado: Argentina</h3>
-            <br />
-            <h3> Nacionalidad: Venezolana </h3>
-            <br />
-            <h3>....</h3>
-          </StyledContainerTxt>
-          {/* <StyledContainerImg src={MiaFoto} alt="miaFoto" /> */}
-        </StyledContainerTxtImg>
-
-        <StyledP>
-          <br />
-          
-          <br />
-          <br />
-          📩Rogersaya@gmail.com📫
-        </StyledP>
+        <h1>Roger Jimenez</h1>
+        <h2>Profile:  <a href="https://www.linkedin.com/in/roger-jimenez-3929149b/" target="_blank" rel="noreferrer" >Linkedin<span className="icons_me icon_linkedin1"> <ion-icon name="logo-linkedin"></ion-icon></span></a></h2>
+        <h2>Repository:  <a href="https://github.com/rogersaya26?tab=repositories" target="_blank" rel="noreferrer" >GitHub<span className="icons_me icon_github1"> <ion-icon name="logo-github"></ion-icon></span></a></h2>
+        <h2>Mail: Rogersaya@gmail.com<span className="icons_me icon_mail1"> <ion-icon name="mail-outline"></ion-icon></span></h2>
+        
       </StyledContainerMe>
     </StyledZonaMe>
   );
