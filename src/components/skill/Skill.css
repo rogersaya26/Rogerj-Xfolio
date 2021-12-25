@@ -39,12 +39,14 @@
 }
 
 .skill_container > h1 {
+  margin-top: 3rem;
   border: 0.2rem solid var(--orangeyellow);
   background-color: #11181f;
   border-radius: 2rem;
   color: #fff;
   padding: 1rem;
   cursor: pointer;
+  text-align: center;
 }
 .skill_container > h1:hover {
   border: 0.2rem solid var(--rosarojo);
