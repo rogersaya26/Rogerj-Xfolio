@@ -25,9 +25,9 @@ export const ContainerBtn = styled.div`
   @media (max-width: 968px) {
     display: flex;
 
-    .BsList {
+    .btn_menu {
       color: #ff005c;
-      font-size: 6rem;
+      font-size: 8rem;
       background: transparent;
       margin-top: 5vh;
       margin-right: 10%;

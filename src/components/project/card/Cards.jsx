@@ -37,7 +37,7 @@ import Img3 from '../../images/image3.jpg' */
     {
       id: 4,
       title: "My Portfolio",
-      text: "Site React.js: Styled-Components, Animate.css, Bootstrap5, Prop-Types, Ionic",
+      text: "Site React.js: Styled-Components, Animate.css, Bootstrap5, React-Router-Dom, Prop-Types, Ionic",
       image: XfolioApp,
       url: "https://rogerj-xfolio.herokuapp.com/"
     }
