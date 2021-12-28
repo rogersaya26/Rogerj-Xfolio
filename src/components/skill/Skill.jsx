@@ -12,7 +12,7 @@ import JavaLogo from '../images/java-logo.png'
 
 const Skill = () => {
   return (
-    <div className='skill_container' >
+    <div className='skill_container' id='skillid'  >
       <h1>Skills</h1>
 
       <div className='logo_container' >

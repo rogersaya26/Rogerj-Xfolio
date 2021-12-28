@@ -65,6 +65,11 @@ export const Menu = styled.ul`
 export const MenuIten = styled.li`
   cursor: pointer;
 
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
   &:hover {
     border-bottom: 0.4rem solid #ff005c;
   }

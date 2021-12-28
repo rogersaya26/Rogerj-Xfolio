@@ -10,7 +10,7 @@ function App() {
   const [clickMe, setClickMe] = useState(false);
   return (
     <div className="app-center">
-     <Navbar  />
+     <Navbar clickMe={clickMe} setClickMe={setClickMe} />
      <Header clickMe={clickMe} setClickMe={setClickMe} />
      <Skill />
      <Project />
