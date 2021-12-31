@@ -4,7 +4,7 @@ import './ZonaMe.css'
 
 const StyledZonaMe = styled.div`
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   position: absolute;
   position: fixed;

@@ -6,7 +6,7 @@ import ZonaMe from "./ZonaMe";
 
 const BgHeader = styled.header`
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   display: flex;
   overflow: hidden;
   justify-content: center;
