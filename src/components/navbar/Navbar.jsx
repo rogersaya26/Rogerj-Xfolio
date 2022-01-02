@@ -9,18 +9,17 @@ const Navbar = ({clickMe, setClickMe}) => {
 
 
   return (
-   
+ 
     <StyledNavbar>
 
       <ContainerBtn onClick={() => setOpen(!open)} >
-        
-{
-open ?  <img src={BtnMenuEnd} alt="" className="btn_menu" />  :  <BsList className="btn_menu" /> 
-
-
-}
-          
+      
+      {
+      open ?  <img src={BtnMenuEnd} alt="Button Navbar" className="btn_menu" />  :  <BsList className="btn_menu" /> 
+    }
+    
       </ContainerBtn>
+
       <Menu open={open}>
         <MenuIten>Home</MenuIten>
         <MenuIten onClick={()=> setOpen(open=false) }> <a href="#skillid"  >Skills</a></MenuIten>
