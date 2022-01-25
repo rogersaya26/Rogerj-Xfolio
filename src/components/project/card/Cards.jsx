@@ -7,6 +7,8 @@ import DogsApiImg from '../../images/app-thedog-api.png'
 import TheBreakingBadApiImg from '../../images/app-thebreakingbad-api.png'
 import AppTareas from '../../images/app-tareas.png'
 import XfolioApp from '../../images/xfolio-app.png'
+import FrontEmployeeList from '../../images/front-react-employees-list.png'
+
 
 /* import Img1 from '../../images/image1.jpg'
 import Img2 from '../../images/image2.jpg'
@@ -37,9 +39,16 @@ import Img3 from '../../images/image3.jpg' */
     {
       id: 4,
       title: "My Portfolio",
-      text: "Site React.js: Styled-Components, Animate.css, Bootstrap5, React-Router-Dom, Prop-Types, Ionic",
+      text: "Site React.js: Styled-Components, Animate.css, Bootstrap5, React-Router-Dom, Prop-Types, Ionic, Deployed in Heroku",
       image: XfolioApp,
       url: "https://rogerj-xfolio.herokuapp.com/"
+    },
+    {
+      id: 5,
+      title: "React - Spring-Boot - MySqL CRUD List Employees",
+      text: "Site React.js to Front-End, Hook, Axios, React-Router-Dom, BootStrap and SpringBoot to Back-End, Jpa (Hibernate), MySqL DataBase, Deployed in Heroku ",
+      image: FrontEmployeeList,
+      url: "https://react-front-employee.herokuapp.com/"
     }
   ]
 
