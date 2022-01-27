@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/rogerj-xfolio/static/css/main.0008e134.chunk.css",
+    "main.js": "/rogerj-xfolio/static/js/main.750acef7.chunk.js",
+    "main.js.map": "/rogerj-xfolio/static/js/main.750acef7.chunk.js.map",
+    "runtime-main.js": "/rogerj-xfolio/static/js/runtime-main.7031f7cb.js",
+    "runtime-main.js.map": "/rogerj-xfolio/static/js/runtime-main.7031f7cb.js.map",
+    "static/css/2.84112ba1.chunk.css": "/rogerj-xfolio/static/css/2.84112ba1.chunk.css",
+    "static/js/2.e6203701.chunk.js": "/rogerj-xfolio/static/js/2.e6203701.chunk.js",
+    "static/js/2.e6203701.chunk.js.map": "/rogerj-xfolio/static/js/2.e6203701.chunk.js.map",
+    "index.html": "/rogerj-xfolio/index.html",
+    "static/css/2.84112ba1.chunk.css.map": "/rogerj-xfolio/static/css/2.84112ba1.chunk.css.map",
+    "static/css/main.0008e134.chunk.css.map": "/rogerj-xfolio/static/css/main.0008e134.chunk.css.map",
+    "static/js/2.e6203701.chunk.js.LICENSE.txt": "/rogerj-xfolio/static/js/2.e6203701.chunk.js.LICENSE.txt",
+    "static/media/Letrero.css": "/rogerj-xfolio/static/media/Gameplay.c260d5d9.ttf",
+    "static/media/app-tareas.5330667b.png": "/rogerj-xfolio/static/media/app-tareas.5330667b.png",
+    "static/media/app-thebreakingbad-api.cb67abce.png": "/rogerj-xfolio/static/media/app-thebreakingbad-api.cb67abce.png",
+    "static/media/app-thedog-api.ef7ae485.png": "/rogerj-xfolio/static/media/app-thedog-api.ef7ae485.png",
+    "static/media/btn_list2.892d8f26.gif": "/rogerj-xfolio/static/media/btn_list2.892d8f26.gif",
+    "static/media/css-logo.660ea470.png": "/rogerj-xfolio/static/media/css-logo.660ea470.png",
+    "static/media/front-react-employees-list.610e6587.png": "/rogerj-xfolio/static/media/front-react-employees-list.610e6587.png",
+    "static/media/java-logo.962ff8f7.png": "/rogerj-xfolio/static/media/java-logo.962ff8f7.png",
+    "static/media/nightlife.156f5829.gif": "/rogerj-xfolio/static/media/nightlife.156f5829.gif",
+    "static/media/react-logo.c1400a56.png": "/rogerj-xfolio/static/media/react-logo.c1400a56.png",
+    "static/media/sql-logo.c5b17f63.png": "/rogerj-xfolio/static/media/sql-logo.c5b17f63.png",
+    "static/media/xfolio-app.c2873ce1.png": "/rogerj-xfolio/static/media/xfolio-app.c2873ce1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7031f7cb.js",
+    "static/css/2.84112ba1.chunk.css",
+    "static/js/2.e6203701.chunk.js",
+    "static/css/main.0008e134.chunk.css",
+    "static/js/main.750acef7.chunk.js"
+  ]
+}
