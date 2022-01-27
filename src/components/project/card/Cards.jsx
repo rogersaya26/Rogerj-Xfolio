@@ -17,10 +17,10 @@ import Img3 from '../../images/image3.jpg' */
   const cards =[
     {
       id: 1,
-      title: 'The Dog Api',
-      text: "Site React.js consume Api Fetch: https://docs.thedogapi.com/",
-      image: DogsApiImg,
-      url: "https://brave-varahamihira-e148be.netlify.app"
+      title: "React - Spring-Boot - MySqL CRUD List Employees",
+      text: "Site React.js to Front-End, Hook, Axios, React-Router-Dom, BootStrap and SpringBoot to Back-End, Jpa (Hibernate), MySqL DataBase, Deployed in Heroku ",
+      image: FrontEmployeeList,
+      url: "https://react-front-employee.herokuapp.com/"
     },
     {
       id: 2,
@@ -45,11 +45,13 @@ import Img3 from '../../images/image3.jpg' */
     },
     {
       id: 5,
-      title: "React - Spring-Boot - MySqL CRUD List Employees",
-      text: "Site React.js to Front-End, Hook, Axios, React-Router-Dom, BootStrap and SpringBoot to Back-End, Jpa (Hibernate), MySqL DataBase, Deployed in Heroku ",
-      image: FrontEmployeeList,
-      url: "https://react-front-employee.herokuapp.com/"
+      title: 'The Dog Api',
+      text: "Site React.js consume Api Fetch: https://docs.thedogapi.com/",
+      image: DogsApiImg,
+      url: "https://brave-varahamihira-e148be.netlify.app"
     }
+   
+    
   ]
 
 const Cards = () => {
