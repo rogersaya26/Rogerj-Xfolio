@@ -61,7 +61,7 @@ const ZonaMe = ({ clickMe, setClickMe }) => {
         </StyledBotton>
         <h1>Roger Jimenez</h1>
         <h2>Profile:  <a href="https://www.linkedin.com/in/roger-jimenez-3929149b/" target="_blank" rel="noreferrer" >Linkedin<span className="icons_me icon_linkedin1"> <ion-icon name="logo-linkedin"></ion-icon></span></a></h2>
-        <h2>Repository:  <a href="https://github.com/rogersaya26?tab=repositories" target="_blank" rel="noreferrer" >GitHub<span className="icons_me icon_github1"> <ion-icon name="logo-github"></ion-icon></span></a></h2>
+        <h2>Repository:  <a href="https://github.com/rogersaya26" target="_blank" rel="noreferrer" >GitHub<span className="icons_me icon_github1"> <ion-icon name="logo-github"></ion-icon></span></a></h2>
         <h2>Mail: Rogersaya@gmail.com<span className="icons_me icon_mail1"> <ion-icon name="mail-outline"></ion-icon></span></h2>
         
       </StyledContainerMe>

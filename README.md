@@ -1,10 +1,3 @@
-Colores buscados:
+### Roger Jimenez Portafolio Link: 
 
-
-#F05365 RADICALRED
-
-#9EF01A greenlizard
-
-#70E000 sheengreen
-
-#e44878 rosado linea oscuro
+https://rogersaya26.github.io/rogerj-xfolio/
