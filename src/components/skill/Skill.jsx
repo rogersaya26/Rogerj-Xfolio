@@ -45,35 +45,15 @@ const Skill = () => {
           <h2>Styled-Components</h2>
         </div>
 
-
-
-
-
-        <div className="logo_container">
-          <div className="logo">
-            <img src={BootstrapLogo} alt="Bootstrap Logo" />
-            <h2>Bootstrap</h2>
-          </div>
-
-          <div className="logo">
-            <img src={NpmLogo} alt="Npm Logo" />
-            <h2>Npm</h2>
-          </div>
-
-          
-          <div className="logo">
-            <img src={MavenLogo} alt="Maven Logo" />
-            <h2>Maven</h2>
-          </div>
-
-          <div className="logo">
-            <img src={GitLogo} alt="Git Logo" />
-            <h2>Git</h2>
-          </div>
+        <div className="logo">
+          <img src={BootstrapLogo} alt="Bootstrap Logo" />
+          <h2>Bootstrap</h2>
         </div>
 
-
-
+        <div className="logo">
+          <img src={NpmLogo} alt="Npm Logo" />
+          <h2>Npm</h2>
+        </div>
 
         <div className="logo_container">
           <div className="logo">
@@ -92,16 +72,26 @@ const Skill = () => {
           </div>
 
           <div className="logo">
-            <img src={SqlServerLogo} alt="SqlServer Logo" />
-            <h2>SqlServer</h2>
+            <img src={MavenLogo} alt="Maven Logo" />
+            <h2>Maven</h2>
           </div>
 
           <div className="logo">
-            <img src={MySqlLogo} alt="MySql Logo" />
-            <h2>MySqL</h2>
+            <img src={GitLogo} alt="Git Logo" />
+            <h2>Git</h2>
           </div>
+
+        <div className="logo">
+          <img src={SqlServerLogo} alt="SqlServer Logo" />
+          <h2>SqlServer</h2>
+        </div>
+
+        <div className="logo">
+          <img src={MySqlLogo} alt="MySql Logo" />
+          <h2>MySqL</h2>
         </div>
       </div>
+    </div>
     </div>
   );
 };
