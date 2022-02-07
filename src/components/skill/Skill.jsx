@@ -56,6 +56,7 @@ const Skill = () => {
         </div>
 
         <div className="logo_container">
+          
           <div className="logo">
             <img src={JavaLogo} alt="Java Logo" />
             <h2>Java</h2>
