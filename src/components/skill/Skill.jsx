@@ -17,7 +17,7 @@ import "./Skill.css";
 const Skill = () => {
   return (
     <div className="skill_container" id="skillid">
-      <h1>Skills</h1>
+      {/* <h1>Skills</h1> */}
 
       <div className="logo_container">
         <div className="logo">
