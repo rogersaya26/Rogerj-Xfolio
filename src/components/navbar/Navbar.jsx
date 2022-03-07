@@ -23,7 +23,7 @@ const Navbar = ({clickMe, setClickMe}) => {
       <Menu open={open}>
         <MenuIten>Home</MenuIten>
         <MenuIten onClick={()=> setOpen(open=false) }> <a href="#skillid"  >Skills</a></MenuIten>
-        <MenuIten onClick={() => setOpen(open=false)} ><a href="#projectid">Projets</a> </MenuIten>
+        <MenuIten onClick={() => setOpen(open=false)} ><a href="#projectid">Projects</a> </MenuIten>
         <MenuIten><span onClick={() => setClickMe(!clickMe) }>Contact</span></MenuIten>
       </Menu>
     </StyledNavbar>

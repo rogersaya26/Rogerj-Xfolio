@@ -25,7 +25,7 @@ const Footer = ({clickMe, setClickMe}) => {
 
       <StyledContacto>
         
-        <a href="https://drive.google.com/file/d/1EjM9RRUFmznASuX_MuiGtHirH7XA4Zrc/view?usp=sharing" target="_blank" rel="noreferrer" ><p> DESCARGAR CV</p></a>
+        <a href="https://drive.google.com/file/d/11KWnUNCwGt0jMlU2Hwe-KD1Qmgta_wJ-/view?usp=sharing" target="_blank" rel="noreferrer" ><p> DESCARGAR CV</p></a>
      
         <a href="https://www.linkedin.com/in/roger-jimenez-3929149b/" target="_blank" rel="noreferrer" > <span className="logo_linkedin"><ion-icon name="logo-linkedin"></ion-icon></span></a>
         <a href="https://github.com/rogersaya26" target="_blank" rel="noreferrer" > <span className="logo_github" ><ion-icon name="logo-github"></ion-icon></span></a>

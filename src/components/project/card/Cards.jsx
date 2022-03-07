@@ -8,7 +8,7 @@ import TheBreakingBadApiImg from '../../images/app-thebreakingbad-api.png'
 import AppTareas from '../../images/app-tareas.png'
 import XfolioApp from '../../images/xfolio-app.png'
 import FrontEmployeeList from '../../images/front-react-employees-list.png'
-
+import ReduxReqres from '../../images/react-redux-api-reqres.png'
 
 /* import Img1 from '../../images/image1.jpg'
 import Img2 from '../../images/image2.jpg'
@@ -49,8 +49,14 @@ import Img3 from '../../images/image3.jpg' */
       text: "Site React.js consume Api Fetch: https://docs.thedogapi.com/",
       image: DogsApiImg,
       url: "https://brave-varahamihira-e148be.netlify.app"
+    },
+    {
+      id: 6,
+      title: '',
+      text: "React-Redux consume API Reqres.in Take List Persona",
+      image: ReduxReqres,
+      url: "https://silly-beaver-1d3561.netlify.app"
     }
-   
     
   ]
 
