@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rogerj-xfolio/static/css/main.305293d4.chunk.css",
-    "main.js": "/rogerj-xfolio/static/js/main.746e5b44.chunk.js",
-    "main.js.map": "/rogerj-xfolio/static/js/main.746e5b44.chunk.js.map",
+    "main.js": "/rogerj-xfolio/static/js/main.5a1feda6.chunk.js",
+    "main.js.map": "/rogerj-xfolio/static/js/main.5a1feda6.chunk.js.map",
     "runtime-main.js": "/rogerj-xfolio/static/js/runtime-main.7031f7cb.js",
     "runtime-main.js.map": "/rogerj-xfolio/static/js/runtime-main.7031f7cb.js.map",
     "static/css/2.84112ba1.chunk.css": "/rogerj-xfolio/static/css/2.84112ba1.chunk.css",
@@ -25,6 +25,7 @@
     "static/media/nightlife.156f5829.gif": "/rogerj-xfolio/static/media/nightlife.156f5829.gif",
     "static/media/postman-logo.256c61ae.png": "/rogerj-xfolio/static/media/postman-logo.256c61ae.png",
     "static/media/react-logo.c1400a56.png": "/rogerj-xfolio/static/media/react-logo.c1400a56.png",
+    "static/media/react-redux-api-reqres.3e324b16.png": "/rogerj-xfolio/static/media/react-redux-api-reqres.3e324b16.png",
     "static/media/sqlserver-logo.403e5164.png": "/rogerj-xfolio/static/media/sqlserver-logo.403e5164.png",
     "static/media/styled-components-logo.e6a5ff4b.png": "/rogerj-xfolio/static/media/styled-components-logo.e6a5ff4b.png",
     "static/media/xfolio-app.c2873ce1.png": "/rogerj-xfolio/static/media/xfolio-app.c2873ce1.png"
@@ -34,6 +35,6 @@
     "static/css/2.84112ba1.chunk.css",
     "static/js/2.e6203701.chunk.js",
     "static/css/main.305293d4.chunk.css",
-    "static/js/main.746e5b44.chunk.js"
+    "static/js/main.5a1feda6.chunk.js"
   ]
 }
